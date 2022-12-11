@@ -1,0 +1,268 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991px){ 
+    div#navbarSupportedContent {
+        background: #fff;
+        position: absolute;
+        width: 100%;
+        top: 58px;
+        padding-top: 20px;
+        transition: none;
+        padding-bottom: 24px;
+    }
+     
+    
+    a.nav-link {
+        color: #7e7e7e!important;
+        font-size: 13px;
+        padding: 15px 0px;
+    }
+    
+    li.nav-item {
+        border-bottom: 1px solid #f1f1f1!important;
+    }
+    
+    div#navbarSupportedContent:after {
+        position: absolute;
+        right: 100%;
+        background: #ffffff;
+        width: 100%;
+        height: 100%;
+        content: "";
+        z-index: 999;
+        top: 0;
+    }
+    
+ 
+    
+    div#navbarSupportedContent:before {
+        position: absolute;
+        left: 100%;
+        background: white;
+        width: 100%;
+        height: 100%;
+        content: "";
+        z-index: -1;
+        top: 0;
+    }
+    li.nav-item.dropdown.dropdown_toggle .nav-link {
+        display: inline-block;
+    }
+    li.nav-item.dropdown.dropdown_toggle {
+        z-index: 99;
+    }
+    li.nav-item.dropdown.dropdown_toggle .nav-link i {
+        position: absolute;
+        right: 44px;
+        font-size: 16px;
+        z-index: -1;
+    }
+    ul.sub-menu {
+        height: 0px;
+        overflow: hidden;
+        transition:0.4s height;
+    }
+    ul.sub-menu.open-dropdown {
+        height: auto;
+        overflow: visible;
+    }
+    ul.sub-menu li a {
+        color: #7e7e7e!important;
+        font-size: 13px;
+        padding: 15px 0px;
+        display: block;
+        font-weight: 700;
+    }
+    
+    ul.sub-menu li {
+        border-top: 1px solid #f1f1f1!important;
+    }
+    
+    ul.sub-menu.open-dropdown {
+        padding-left: 16px;
+    }body#home header {
+        position: absolute;
+        top: 0;
+    }
+    
+    body#home header .black-logo {
+        display: none;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .price-description h2 {
+        font-size: 50px;
+    }
+    .price-description h4 {
+        font-size: 24px;
+    }
+    .cta-info {
+        padding-bottom: 0px;
+        padding-top: 50px;
+    }
+    
+    .contact-form {
+        padding-top: 50px;
+    }
+    .section-title:after {
+        font-size: 79px;
+        line-height: 1.9;
+    }
+ 
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .pb-130 {
+        padding-bottom: 70px;
+    }
+    
+    .pt-120 {
+        padding-top: 60px;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    .section-title:after {
+        font-size: 50px;
+        line-height: 3;
+    }
+    
+    .section-title {
+        margin-bottom: 40px;
+    }
+    
+    .section-title h4 {
+        font-size: 20px;
+    }
+    
+    .rock-card-desc {
+        padding: 50px 30px;
+        max-width: 370px;
+        margin: 0 auto;
+    }
+    
+    .rock-card-left {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+    
+    h3 {
+        font-size: 26px;
+    }
+    
+    .rock-card-inner p:last-child {
+        margin: 0;
+    }
+    
+    .rock-final-step {
+        max-width: 370px;
+        margin: 0 auto;
+        padding: 40px 30px;
+    }
+    
+    .rock-3step {
+        max-width: 370px;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    
+    .rock-3step img {
+        height: auto;
+    }
+    
+    .rock-card-left img {
+        height: auto;
+    }
+    
+    .slider-info p {
+        line-height: 1.6;
+    }
+    
+    section.testimonial-area {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+    button.slick-prev {
+        left: 18%;
+    }
+    
+    button.slick-next {
+        right: 18%;
+    }
+    
+    .service-card {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    section.our-services-area {
+        padding-bottom: 32px;
+    }
+    
+    section.our-partners-area {
+        padding: 70px 0px;
+    }
+    
+    .price-description h2 {
+        font-size: 70px;
+    }
+    
+    h4 {}
+    
+    .price-description h4 {
+        font-size: 24px;
+    }
+    
+    .price-description {
+    }
+    
+    .price-card {
+        max-width: 370px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    
+    .cta-info {
+        padding: 70px 0px;
+    }
+    
+    .contact-form {
+        padding: 50px 32px;
+    }
+    
+    section.footer-social-area {
+        padding: 60px 0px;
+    }
+    
+    .copyright-inner {
+        flex-direction: column;
+        gap: 16px;
+        padding: 8px 0px;
+    }
+    .partners-slider .slick-track {
+        gap: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 400.98px) { 
+ 
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+ 
+}
