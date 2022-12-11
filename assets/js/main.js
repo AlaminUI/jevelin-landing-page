@@ -27,14 +27,14 @@ document.querySelector('.navbar-toggler').addEventListener('click', function(){
         }
     });
 
-    // $(document).ready(function(){
-    //     $(window).load(function(){
-    //       $('.pre-loader').remove();
-    //     });
-    //     $(this).load(function(){
-    //         $('.pre-loader').remove();
-    //     });
-    //     $(document).load(function(){
-    //         $('.pre-loader').remove();
-    //     });
-    //   })
+    $(document).ready(function(){
+        $(window).load(function(){
+          $('.pre-loader').remove();
+        });
+        $(this).load(function(){
+            $('.pre-loader').remove();
+        });
+        $(document).load(function(){
+            $('.pre-loader').remove();
+        });
+      })
