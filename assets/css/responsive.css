@@ -12,10 +12,11 @@
         background: #fff;
         position: absolute;
         width: 100%;
-        top: 58px;
+        top: 60px;
         padding-top: 20px;
         transition: none;
         padding-bottom: 24px;
+        z-index: 99;
     }
      
     
@@ -95,7 +96,14 @@
     body#home header .black-logo {
         display: none;
     }
-
+    #innerPage header.header-sticky {
+        position: static;
+    }
+    #innerPage .navbar-brand {
+        display: flex;
+        align-items: center;
+        padding: 10px 0px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -255,6 +263,33 @@
     }
     .partners-slider .slick-track {
         gap: 0;
+    }
+    .reverse-sm-main {
+        flex-direction: column-reverse;
+    }
+    img.float-right {
+        float: none !important;
+        padding-bottom: 16px;
+        padding-left: 0px;
+        margin: 0 auto;
+        padding-top: 8px;
+    }
+    
+    .breadcrumb-wrap {
+        padding-bottom: 8px;
+    }
+    
+    main {
+        margin-top: 36px;
+    }
+    
+    main h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .contact-form-left {
+        padding-top: 32px;
     }
 }
 

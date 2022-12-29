@@ -231,9 +231,15 @@ li.nav-item {
   header.header-sticky .white-logo {
     display: none;
   }
+  #innerPage header.header-sticky .white-logo {
+    display: none;
+  }
   
   img.black-logo {
     display: none;
+  }
+  #innerPage img.black-logo {
+    display: block;
   }
   
   header.header-sticky .black-logo {
@@ -243,7 +249,104 @@ li.nav-item {
     color: rgba(61,61,61,.8);
   }
 }
+#innerPage header {
+  position: static;
+}
 
+#innerPage header a.nav-link {
+  color: rgba(61,61,61,.69);
+}
+
+#innerPage header a.nav-link:hover {
+  color: rgba(61,61,61,.8);
+}
+
+#innerPage header {
+  border-bottom: 1px solid rgba(0,0,0,.08) !important;
+}
+
+#innerPage header.header-sticky {
+  position: fixed;
+}
+#innerPage .toggler {
+ 
+  background: #47c9e5;
+ 
+}
+main p{
+  font-size:15px;
+  margin-bottom:18px;
+}
+main li{
+  font-size:15px;
+  margin-bottom:15px;
+}
+img.float-right {
+  max-width: 320px;
+  padding-left: 16px;
+  display: block;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+main h1 {
+  color: #505050;
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 3px;
+  padding-top: 0px;
+}
+ol.breadcrumb.bg-white {
+    border: 1px solid #eee;
+}
+
+main {
+    margin-top: 44px;
+    margin-bottom: 50px;
+}
+
+.contact-form-left h3 {
+    background: #a80f0c;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 8px;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+li.breadcrumb-item a:hover {
+    color: #c33f02 !important;
+}
+
+li.breadcrumb-item {
+    color: #a1a1a1 !important;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin:0px !important;
+}
+
+li.breadcrumb-item a {
+    color: #a1a1a1 !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    font-size: 15px;
+    padding-right: 5px;
+    color: #a1a1a1 !important;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 5px;
+}
+
+main ul li {
+    margin-bottom: 12px;
+    list-style: disc;
+    margin-left: 15px;
+}
 .toggler {
   display: block;
   background: #fff;
